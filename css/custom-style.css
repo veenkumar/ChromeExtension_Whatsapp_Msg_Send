@@ -1,0 +1,194 @@
+ @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
+/* CSS Document */
+* { box-sizing: border-box; }
+body { background: none transparent; color: #757575; font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 16px; color: #424242; }
+h1, h2, h3, h4, h5, ul, ol { margin: 0; padding: 0; }
+a { color: #4668D3; }
+a:hover { color: #424242; } 
+body.page-body { background: #EEEEEE !important; }
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus { outline: none; }
+.main-white-box { width: 97%; float: right; margin-top: 3px; margin-right: 5px;  
+-webkit-box-shadow: 2px 3px 8px 3px rgba(50, 50, 50, 0.2);
+-moz-box-shadow:    2px 3px 8px 5px rgba(50, 50, 50, 0.2);
+box-shadow:         2px 3px 8px 5px rgba(50, 50, 50, 0.2); border-radius: 2px; position: relative; min-height: 360px; }
+.relative { position: relative; }
+.no-active-call { 
+  text-align: center;
+  color: #BDBDBD;
+  font-size: 14px;
+  padding-top: 75px;
+}
+.no-active-call-circle {
+    text-align: center;
+    background: #BDBDBD;
+    font-size: 14px;
+    padding-top: 24px;
+    border-radius: 50%;
+    margin: 3% 34%;
+    height: 100px;
+}
+.no-active-call img { display: block; margin: auto; margin-bottom: 15px; }
+.close-icon { position: absolute; bottom: 10px; right: 7px;
+  border-radius:50px; 
+  -webkit-box-shadow: 4px 1px 8px 2px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow:    4px 1px 8px 2px rgba(50, 50, 50, 0.2);
+  box-shadow:         4px 1px 8px 2px rgba(50, 50, 50, 0.2);
+}
+.notes-alert { 
+    position: absolute; bottom: 10px; left: 7px;
+    color:#2E7D32;display:none; 
+}
+.close-icon .material-icons { font-size: 26px; }
+.close-icon .btn.btn-fab.btn-fab-mini, .close-icon .input-group-btn .btn.btn-fab.btn-fab-mini, .close-icon .btn-group-sm .btn.btn-fab, .close-icon .btn-group-sm .input-group-btn .btn.btn-fab { width: 62px; height: 62px; color: #fff; }
+.close-icon .btn.btn-raised, .close-icon .input-group-btn .btn.btn-raised, .close-icon .btn.btn-fab, .input-group-btn .btn.btn-fab, .close-icon .btn-group-raised .btn, .close-icon .btn-group-raised .input-group-btn .btn, .close-icon .btn.btn-raised.btn-default, .close-icon .input-group-btn .btn.btn-raised.btn-default, .close-icon .btn.btn-fab.btn-default, .input-group-btn .btn.btn-fab.btn-default, .close-icon .btn-group-raised .btn.btn-default, .close-icon .btn-group-raised .input-group-btn .btn.btn-default { background: #2F7D32; }
+.close-icon .btn:hover:not(.btn-raised):not(.btn-link), .close-icon .input-group-btn .btn:hover:not(.btn-raised):not(.btn-link), .close-icon .btn:focus:not(.btn-raised):not(.btn-link), .close-icon .input-group-btn .btn:focus:not(.btn-raised):not(.btn-link) { background: #2F7D32; }
+.white-box-ft { /*position: absolute;*/ bottom: 0; left: 0; width: 100%; background: #EEEEEE; padding: 10px 15px; }
+.white-box-ft .form-group { margin-top: 0; padding-bottom: 0; width: 85%; }
+.white-box-ft .form-group .form-control { margin-bottom: 0; }
+.white-box-ft .form-control, .white-box-ft .form-group .form-control { background-image: linear-gradient(#009688, #009688), linear-gradient(#EEEEEE, #EEEEEE); }
+.send-icon { position: absolute; top: 0; right: 0; z-index: 999; }
+.send-icon .btn.btn-raised, .send-icon .input-group-btn .btn.btn-raised, .send-icon .btn.btn-fab, .input-group-btn .btn.btn-fab, .send-icon .btn-group-raised .btn, .send-icon .btn-group-raised .input-group-btn .btn, .send-icon .btn.btn-raised.btn-default, .send-icon .input-group-btn .btn.btn-raised.btn-default, .send-icon .btn.btn-fab.btn-default, .send-icon .input-group-btn .btn.btn-fab.btn-default, .send-icon .btn-group-raised .btn.btn-default, .send-icon .btn-group-raised .input-group-btn .btn.btn-default { background: #fff; }
+.send-icon .btn:hover:not(.btn-raised):not(.btn-link), .send-icon .input-group-btn .btn:hover:not(.btn-raised):not(.btn-link), .send-icon .btn:focus:not(.btn-raised):not(.btn-link), .send-icon .input-group-btn .btn:focus:not(.btn-raised):not(.btn-link) { background: #fff; }
+.send-icon .material-icons { color: #2E7D32; }
+.white-box-hd { background: #2E7D32; border-radius: 2px 2px 0 0; color: #fff; padding: 15px;  }
+.white-box-md { background:#fff;padding: 15px; height:200px;}
+.green-hd-btn { display: block; margin-top: 10px; }
+.phone-number { width: 60%; float: left; font-size: 20px; }
+.time-remain { width: 40%; float: right; text-align: right; font-size: 20px; }
+.name { width: 60%; float: left; padding-top: 10px; }
+.hungup-btn { float: right;  }
+.hungup-btn .btn, .hungup-btn .input-group-btn .btn { margin: 0; }
+.hungup-btn .btn.btn-raised, .hungup-btn .input-group-btn .btn.btn-raised, .hungup-btn .btn.btn-fab, .input-group-btn .btn.btn-fab, .hungup-btn .btn-group-raised .btn, .hungup-btn .btn-group-raised .input-group-btn .btn, .hungup-btn .btn.btn-raised.btn-default, .hungup-btn .input-group-btn .btn.btn-raised.btn-default, .hungup-btn .btn.btn-fab.btn-default, .hungup-btn .input-group-btn .btn.btn-fab.btn-default, .hungup-btn .btn-group-raised .btn.btn-default, .hungup-btn .btn-group-raised .input-group-btn .btn.btn-default { background: #fff; text-transform: none; color: #BF360C; font-weight: 400; box-shadow: none; padding-left: 20px; padding-right: 20px; }
+.hungup-btn .btn:hover:not(.btn-raised):not(.btn-link), .hungup-btn .input-group-btn .btn:hover:not(.btn-raised):not(.btn-link), .hungup-btn .btn:focus:not(.btn-raised):not(.btn-link),.hungup-btn .input-group-btn .btn:focus:not(.btn-raised):not(.btn-link) { background: #fff;  box-shadow: none; }
+.incoming-call { font-size: 20px; text-align: center; font-weight:100; }
+.incoming-call-number { display: block; margin-top: 5px; font-size: 14px; font-weight: 100; text-align: center; }
+.incoming-btn-l { width: 50%; text-align: center; float: left; }
+.incoming-btn-r { width: 100%; text-align: center; }
+
+.answer-btn .btn.btn-raised, .answer-btn .input-group-btn .btn.btn-raised, .answer-btn .btn.btn-fab, .input-group-btn .btn.btn-fab, .answer-btn .btn-group-raised .btn, .answer-btn .btn-group-raised .input-group-btn .btn, .answer-btn .btn.btn-raised.btn-default, .answer-btn .input-group-btn .btn.btn-raised.btn-default, .answer-btn .btn.btn-fab.btn-default, .answer-btn .input-group-btn .btn.btn-fab.btn-default, .answer-btn .btn-group-raised .btn.btn-default, .answer-btn .btn-group-raised .input-group-btn .btn.btn-default { background: #fff; color: #2E7D32; box-shadow: none; padding-left: 20px; padding-right: 20px;margin-bottom:1px; }
+.answer-btn .btn:hover:not(.btn-raised):not(.btn-link), .answer-btn .input-group-btn .btn:hover:not(.btn-raised):not(.btn-link), .answer-btn .btn:focus:not(.btn-raised):not(.btn-link),.answer-btn .input-group-btn .btn:focus:not(.btn-raised):not(.btn-link) { background: #fff;  box-shadow: none; }
+.ignore-btn .btn.btn-raised, .ignore-btn .input-group-btn .btn.btn-raised, .ignore-btn .btn.btn-fab, .input-group-btn .btn.btn-fab, .ignore-btn .btn-group-raised .btn, .ignore-btn .btn-group-raised .input-group-btn .btn, .ignore-btn .btn.btn-raised.btn-default, .ignore-btn .input-group-btn .btn.btn-raised.btn-default, .ignore-btn .btn.btn-fab.btn-default, .ignore-btn .input-group-btn .btn.btn-fab.btn-default, .ignore-btn .btn-group-raised .btn.btn-default, .ignore-btn .btn-group-raised .input-group-btn .btn.btn-default { background: #fff; color: #BF360C; box-shadow: none; padding-left: 20px; padding-right: 20px;margin-bottom:1px; }
+.ignore-btn .btn:hover:not(.btn-raised):not(.btn-link), .ignore-btn .input-group-btn .btn:hover:not(.btn-raised):not(.btn-link), .ignore-btn .btn:focus:not(.btn-raised):not(.btn-link),.ignore-btn .input-group-btn .btn:focus:not(.btn-raised):not(.btn-link) { background: #fff;  box-shadow: none; }
+.hanup-btn .btn.btn-raised, .hanup-btn .input-group-btn .btn.btn-raised, .hanup-btn .btn.btn-fab, .input-group-btn .btn.btn-fab, .hanup-btn .btn-group-raised .btn, .hanup-btn .btn-group-raised .input-group-btn .btn, .hanup-btn .btn.btn-raised.btn-default, .hanup-btn .input-group-btn .btn.btn-raised.btn-default, .hanup-btn .btn.btn-fab.btn-default, .hanup-btn .input-group-btn .btn.btn-fab.btn-default, .hanup-btn .btn-group-raised .btn.btn-default, .hanup-btn .btn-group-raised .input-group-btn .btn.btn-default { background: #fff; color: #BF360C; box-shadow: none; padding-left: 20px; padding-right: 20px;margin-bottom:1px; }
+.hanup-btn .btn:hover:not(.btn-raised):not(.btn-link), .hanup-btn .input-group-btn .btn:hover:not(.btn-raised):not(.btn-link), .hanup-btn .btn:focus:not(.btn-raised):not(.btn-link),.hanup-btn .input-group-btn .btn:focus:not(.btn-raised):not(.btn-link) { background: #fff;  box-shadow: none; }
+h2.page-hd { font-size: 16px; color: #757575; font-weight: 400; margin-bottom: 15px; }
+h2.page-contact-hd { font-size: 16px; color: #757575; font-weight: 400; margin: 15px 0 15px 0; }
+.list-group .list-group-item .row-content { min-height: inherit; vertical-align: top; }
+.white-box-md .list-group .list-group-item { padding: 0; }
+.white-box-md .list-group .list-group-item .row-picture img, .white-box-md .list-group .list-group-item .row-action-primary img, .white-box-md .list-group .list-group-item .row-picture i, .white-box-md .list-group .list-group-item .row-action-primary i,.white-box-md  .list-group .list-group-item .row-picture label, .white-box-md .list-group .list-group-item .row-action-primary label { width: 38px; height: 38px; }
+.white-box-md h4 { font-size: 16px !important; line-height: 1; font-weight: 400; margin-top:2px;}
+.white-box-md .list-group .row-content { font-size: 13px; line-height:0.8; }
+.login-box { width: 420px; margin: auto; }
+.logo { padding: 40px 0; text-align: center; }
+.login-white-box { background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,.1); border-radius: 4px; padding: 40px; }
+.login-hd { 
+  /*font-size: 22px; color: #000000; text-align: center;*/ 
+  font-family: Roboto;
+  font-size: 17.1px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.84;
+  text-align: center;
+  color: #000000;
+}
+
+.remember { width: 100%; float: left; font-size: 12px; color: #7B7B7B; }
+.needhelp { width: 40%; float: right; text-align: right; }
+.needhelp a { font-size: 12px; }
+
+.remember .checkbox label, .remember .radio label, .remember label { font-size: 12px; }
+.remember .checkbox, .remember .radio { margin: 0; }
+
+.form-btn { margin-top: 30px; }
+.loading-icon { padding-top: 40px; text-align: center; }
+
+.form-btn .btn-lg { width: 100%; background: #fff; height: 50px; line-height: 30px; box-shadow: none; border-radius: 3px; border: 1px solid #E9EDF0; color: #0090E7; text-transform: none; font-size: 18px; }
+
+.form-btn .btn.btn-raised:not(.btn-link), .form-btn .input-group-btn .btn.btn-raised:not(.btn-link), .form-btn .btn-group-raised .btn:not(.btn-link), .form-btn .btn-group-raised .input-group-btn .btn:not(.btn-link)  { box-shadow: none; }
+
+
+.btn.btn-raised:focus:not(.btn-link), .input-group-btn .btn.btn-raised:focus:not(.btn-link), .btn-group-raised .btn:focus:not(.btn-link), .btn-group-raised .input-group-btn .btn:focus:not(.btn-link), .btn.btn-raised.active:focus:not(.btn-link), .input-group-btn .btn.btn-raised.active:focus:not(.btn-link), .btn-group-raised .btn.active:focus:not(.btn-link), .btn-group-raised .input-group-btn .btn.active:focus:not(.btn-link), .btn.btn-raised:focus:active:not(.btn-link), .input-group-btn .btn.btn-raised:focus:active:not(.btn-link), .btn-group-raised .btn:focus:active:not(.btn-link), .btn-group-raised .input-group-btn .btn:focus:active:not(.btn-link), .btn.btn-raised:focus:hover:not(.btn-link), .input-group-btn .btn.btn-raised:focus:hover:not(.btn-link), .btn-group-raised .btn:focus:hover:not(.btn-link), .btn-group-raised .input-group-btn .btn:focus:hover:not(.btn-link), .btn.btn-raised.active:focus:hover:not(.btn-link), .input-group-btn .btn.btn-raised.active:focus:hover:not(.btn-link), .btn-group-raised .btn.active:focus:hover:not(.btn-link), .btn-group-raised .input-group-btn .btn.active:focus:hover:not(.btn-link), .btn.btn-raised:focus:active:hover:not(.btn-link), .input-group-btn .btn.btn-raised:focus:active:hover:not(.btn-link), .btn-group-raised .btn:focus:active:hover:not(.btn-link), .btn-group-raised .input-group-btn .btn:focus:active:hover:not(.btn-link) { box-shadow: none;  }
+.form-group.is-focused .form-control {  background-image: linear-gradient(#0191EA, #0191EA), linear-gradient(#d2d2d2, #d2d2d2);  }
+.form-group.is-focused label, .form-group.is-focused label.control-label  { color: #0191EA; }
+.form-icon { position: relative; }
+.form-icon-img { position: absolute; top: 12px; left: 0; }
+.form-icon .control-label { padding-left: 25px !important; }
+.header { background: #2F7D32; min-height: 70px; padding: 22px; color: #fff; }
+.hd-left { width: 70%; float: left; font-size: 22px; }
+.hd-right { width: 30%; float: right; text-align: right; }
+.middpart { width: 620px; margin: auto; }
+.midd-inner-box { background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,.1); border-radius: 4px; padding: 20px; margin-bottom: 25px; }
+.midd-inner-box h3 { font-size: 20px; margin-bottom: 25px; color: #424242; font-weight: 400; }
+.midd-inner-box h3 img { margin-right: 15px; }
+ul.inner-cnt-list li { list-style-type: none; margin-bottom: 7px; }
+ul.inner-cnt-list li .checkbox label, ul.inner-cnt-list li .radio label, label {  font-size: 14px; color: #00887A; } 
+.verify-btn a.btn-success { background: #2F7D32 !important; box-shadow: none !important; font-size: 17px !important; }
+.call-icon img { position: relative; top: -5px; }
+.row-picture {
+    width:40px;
+    height:40px;
+    background:#8D6E63;
+}
+.row-picture-contact {
+    width:40px;
+    height:40px;
+    background:#000000;
+}
+.company_box {
+    border-radius:0% !important;
+    margin-top:5px;
+    margin-left:7px;
+    color:white;
+}
+.contact_box {
+    border-radius:0% !important;
+    margin-top:5px;
+    margin-left:7px;
+    color:white;
+}
+.incoming-phone-company {
+  font-size: 12px;
+  line-height: 0;
+}
+#dv_contact_list td{
+    padding:5px !important;
+    cursor:pointer;
+}
+.nav-tabs {
+  background:#2E7D32;
+  border-bottom:none;
+}
+.nav-tabs li {
+    padding-left:5px;
+}
+#incoming_middle_screen .row {
+    margin-bottom:5px;
+}
+#dv_notes_incoming {
+  display:none;
+}
+.item_hover {
+    background:#F3F3F3;
+    cursor:pointer;
+}
+.item-active {
+    background:#74D578;
+    cursor:pointer;
+}
+::-webkit-scrollbar {
+    height: 10px;
+    width: 8px;
+    /* background: #ECECEC; */
+}
+::-webkit-scrollbar-thumb {
+    background: #90A4AF;
+    -webkit-border-radius: 0px;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+::-webkit-scrollbar-corner {
+    background: #ECECEC;
+}
+.head-title {
+  font-size:28px;
+}
